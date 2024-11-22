@@ -8,7 +8,7 @@ db.createUser(
         pwd: "password",
         roles: [
             {
-                role: "readWrite",
+                role: "readWrite,
                 db: "db_drug"
             }
         ]
